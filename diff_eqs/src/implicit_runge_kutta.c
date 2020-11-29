@@ -7,6 +7,7 @@ double tn,yn,h;
 double g(double x){ return x-yn-h*func(tn+h/2,yn/2+x/2); }
 double dg(double x){ return 1-func(tn,x); }
 
+
 void implicit_midpoint(double (*ydot)(double,double),double t0,double tf,double y0,int N,double* t,double* y){
     y[0] = y0;
     h=(tf-t0)/(N-1);

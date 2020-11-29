@@ -4,7 +4,6 @@
 #include "newtons_method.h"
 
 
-
 double newtons_method(double (*f)(double),double (*df)(double),double x0,double tol,int max_it){
     int i = 0;
     double xn = x0;

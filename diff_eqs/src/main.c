@@ -10,8 +10,8 @@ double ydot(double t, double y){ return -0.5*y; }
 void run_implicit_midpoint();
 
 int main(){
+    printf("Hello you numerical bastard!?\n");
     run_implicit_midpoint();
-
     return 0;
 }
 
