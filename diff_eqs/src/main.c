@@ -23,8 +23,6 @@ void run_implicit_midpoint(){
 
     implicit_midpoint(ydot,t0,tf,y0,N,t,y);
 
-    printf("%f",y[0]);
-
     FILE* fp;
     fp = fopen("data.txt","w");
     if(fp == NULL){ printf("file can't be opened\n"); return; }
