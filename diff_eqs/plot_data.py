@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.loadtxt('diff_eqs/data.txt', delimiter=',')
+data = np.loadtxt('data.txt', delimiter=',')
 t = data[:,0]
 y_num = data[:,1]
 
