@@ -11,7 +11,7 @@ where
 
     for _ in 1..MAX_ITER {
         let numerator = f(xi);
-        if numerator < TOL {
+        if numerator.abs() < TOL {
             break;
         }
 
